@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.spacer{
+    height: 85vh;
+}
+
+header{
+    background-color: #FF0000;
+    height: 70px;
+    width: 100%;
+}
+
+footer{
+    background-color: #00FF00;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
