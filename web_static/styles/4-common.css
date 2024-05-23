@@ -1,9 +1,11 @@
-body{
-    margin: 0;
-    padding: 0;
-    color: #484848;
-    font-size: 14px;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+.container{
+    max-width: 1000px;
+    height: 40px;
+    margin: 30px auto;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
 }
 
 .logo_img{
@@ -15,6 +17,3 @@ body{
     background-repeat: no-repeat;
 }
 
-.body_content{
-    height: 80vh;
-}
